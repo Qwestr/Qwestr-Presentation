@@ -7,13 +7,50 @@
   <link href='big.css' rel='stylesheet' type='text/css' />
   <link href='highlight.min.css' rel='stylesheet' type='text/css' />
   <style>
-    .new-shiny { background: #aaaaaa; }
+    .new-shiny    { background: #aaaaaa; }
+    .green-text   { color: green; }
+    .red-text     { color: red; }
+    .image-left {
+      max-width:45%;
+      height:auto;
+    }
+    .image-right {
+      max-width:45%;
+      height:auto;
+      float: right;
+    }
   </style>
   <script src='big.js'></script>
   <script src='highlight.js'></script>
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-  <div>Your presentation goes here</div>
+
+  <div>
+    Games
+  </div>
+
+  <div>
+    What is a Game?
+    <notes>
+      Some notes here
+    </notes>
+  </div>
+
+  <div>
+    <img class="image-left" src="https://broadviewpress.com/wp-content/uploads/2016/01/9781554812158.jpg" />
+    <img class="image-right" src="https://pbs.twimg.com/profile_images/2816038123/b6c8cb71d3986334ca27789c9287cb0b_400x400.jpeg" />
+  </div>
+
+  <div>
+    “Playing a game is a
+    <span class="green-text">voluntary</span>
+    attempt to overcome
+    <span class="red-text">unnecessary</span>
+    obstacles.”
+  </div>
+
+  <div data-background-image="https://www.broadviewpress.com/wp-content/uploads/2014/08/grasshopper.jpg" />
+
 </body>
 </html>
